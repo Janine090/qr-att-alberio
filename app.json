@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QR-ATT",
-    "slug": "qqr-att-alberio-7dhei59odoznl7goofdyh",
+    "slug": "qr-att-alberio-7dhei59odoznl7goofdyh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -11,15 +11,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.qrattalberio.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#000000"
+        "backgroundColor": "#ffffff"
       },
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
-      ],
-      "package": "com.qr-att-alberio.qratt"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -52,6 +52,7 @@
       "eas": {
         "projectId": "7d749071-eb20-4174-bb0b-800d35154600"
       }
-    }
+    },
+    "owner": "qr-att-alberio"
   }
 }
